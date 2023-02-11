@@ -17,7 +17,6 @@ const Sports = () => {
     (state) => state.filterSlice.selectedCategory
   );
   const filterText = useSelector((state) => state.filterSlice.filterText);
-  console.log(filterText.length);
   const {
     data: news = [],
     isLoading,
@@ -38,7 +37,6 @@ const Sports = () => {
   const filteredNews = news.articles.filter((article) =>
     article.title.toLowerCase().includes(filterText.toLowerCase())
   );
-  console.log(filteredNews.value);
   return (
     <div className="sports-container">
       <Header />
