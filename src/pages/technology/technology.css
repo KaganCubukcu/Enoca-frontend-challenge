@@ -1,0 +1,30 @@
+.technology-container {
+  display: grid;
+  justify-content: center;
+}
+.technology-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 74vw;
+}
+.technology-section-content {
+  padding-left: 50px;
+}
+.technology-content-container {
+  display: flex;
+  padding: 10px;
+}
+.technology-content-img {
+  object-fit: cover;
+}
+.technology-content-heading {
+  width: 100%;
+  padding: 30px;
+}
+.technology-content-heading h4 {
+  padding: 10px;
+}
+.technology-content-heading p {
+  padding: 10px;
+}

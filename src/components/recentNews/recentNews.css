@@ -1,0 +1,32 @@
+.recent-news-container {
+  width: 74vw;
+}
+.recent-news-container h4 {
+  margin-top: 80px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+.recent-content-container {
+  display: flex;
+  padding: 10px;
+}
+.content-img {
+  object-fit: cover;
+}
+.content-heading {
+  width: 50%;
+}
+.content-heading h4 {
+  padding: 10px;
+}
+.content-heading p {
+  padding: 10px;
+}
+.pagination-buttons {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

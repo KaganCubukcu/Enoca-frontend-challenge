@@ -1,0 +1,30 @@
+.entertainment-container {
+  display: grid;
+  justify-content: center;
+}
+.entertainment-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 74vw;
+}
+.entertainment-section-content {
+  padding-left: 50px;
+}
+.entertainment-content-container {
+  display: flex;
+  padding: 10px;
+}
+.entertainment-content-img {
+  object-fit: cover;
+}
+.entertainment-content-heading {
+  width: 100%;
+  padding: 30px;
+}
+.entertainment-content-heading h4 {
+  padding: 10px;
+}
+.entertainment-content-heading p {
+  padding: 10px;
+}

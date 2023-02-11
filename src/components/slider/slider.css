@@ -1,0 +1,26 @@
+.slider-container {
+  display: flex;
+  width: 74vw;
+  height: 500px;
+  margin-top: 30px;
+}
+
+.slider-container img {
+  height: 500px;
+}
+.slider-container p {
+  color: gray;
+}
+.slider-container section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+}
+.carousel-container {
+  display: flex;
+  justify-content: space-between;
+}

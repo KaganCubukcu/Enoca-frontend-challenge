@@ -1,0 +1,30 @@
+.business-container {
+  display: grid;
+  justify-content: center;
+}
+.business-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 74vw;
+}
+.business-section-content {
+  padding-left: 50px;
+}
+.business-content-container {
+  display: flex;
+  padding: 10px;
+}
+.business-content-img {
+  object-fit: cover;
+}
+.business-content-heading {
+  width: 100%;
+  padding: 30px;
+}
+.business-content-heading h4 {
+  padding: 10px;
+}
+.business-content-heading p {
+  padding: 10px;
+}
