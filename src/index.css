@@ -3,7 +3,52 @@ body {
   font-family: "Cabin", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* news content - pagination css codes */
+.news-container {
+  display: grid;
+  justify-content: center;
 }
+.news-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 74vw;
+}
+.news-section-content {
+  padding-left: 50px;
+}
+.news-content-container {
+  display: flex;
+  padding: 10px;
+}
+.news-content-img {
+  object-fit: cover;
+}
+.news-content-heading {
+  width: 100%;
+  padding: 30px;
+}
+.news-content-heading h4 {
+  padding: 10px;
+}
+.news-content-heading p {
+  padding: 10px;
+}
+.news-categoryname {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+.news-content-categoryname {
+  display: flex;
+  justify-content: center;
+}
+.pagination-buttons {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* news content - pagination css codes */
