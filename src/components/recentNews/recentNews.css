@@ -23,10 +23,3 @@
 .content-heading p {
   padding: 10px;
 }
-.pagination-buttons {
-  margin: 20px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
