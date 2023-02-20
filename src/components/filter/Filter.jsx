@@ -31,7 +31,6 @@ const Filter = () => {
         <option value="us">English</option>
         <option value="ru">Russian</option>
       </select>
-      <p>Selected country: {selectedCountry}</p>
 
       <p>Search by category:</p>
       <select value={selectedCategory} onChange={handleCategoryChange}>
