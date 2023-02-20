@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
-import "./categories.css";
 import Filter from "../../components/filter/Filter";
 import { useGetNewsCategoryQuery } from "../../redux/newsApi/newsSlice";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Spinner from "../../components/loading-animation/Spinner";
+
 const Categories = () => {
   const selectedCountry = useSelector(
     (state) => state.filterSlice.selectedCountry
@@ -37,23 +37,23 @@ const Categories = () => {
   }
 
   return (
-    <div className="categories-container">
+    <div className="news-container">
       <Header />
       <Navbar />
-      <p className="categories-categoryname">{selectedCategory} news</p>
-      <div className="categories-content">
+      <p className="news-categoryname">{selectedCategory} news</p>
+      <div className="news-content">
         <Filter />
-        <section className="categories-section-content">
+        <section className="news-section-content">
           {news.articles.slice(0, 5).map((article, index) => (
-            <div key={index} className="categories-content-container">
-              <section className="categories-content-img">
+            <div key={index} className="news-content-container">
+              <section className="news-content-img">
                 <img
                   src={article.urlToImage}
                   alt=""
                   style={{ width: "400px", height: "100%" }}
                 />
               </section>
-              <section className="categories-content-heading">
+              <section className="news-content-heading">
                 <h4>{article.title}</h4>
                 <p>{article.description}</p>
               </section>
