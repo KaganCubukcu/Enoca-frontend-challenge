@@ -13,6 +13,7 @@ const NewsContent = () => {
   const selectedCategory = useSelector(
     (state) => state.filterSlice.selectedCategory
   );
+
   const filterText = useSelector((state) => state.filterSlice.filterText);
   const {
     data: news = [],
