@@ -52,3 +52,12 @@ body {
 }
 
 /* news content - pagination css codes */
+
+/* Home.jsx css codes */
+
+.home-container {
+  display: grid;
+  justify-content: center;
+}
+
+/* Home.jsx css codes */
