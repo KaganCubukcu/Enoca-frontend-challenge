@@ -26,9 +26,9 @@ const Filter = () => {
       <p>Search by country name:</p>
       <select value={selectedCountry} onChange={handleCountryChange}>
         <option value="tr">Turkish</option>
-        <option value="jp">Japanese</option>
-        <option value="kr">Korean</option>
         <option value="us">English</option>
+        <option value="kr">Korean</option>
+        <option value="jp">Japanese</option>
         <option value="ru">Russian</option>
       </select>
 
