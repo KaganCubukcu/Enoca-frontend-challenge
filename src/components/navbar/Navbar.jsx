@@ -24,7 +24,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           to="/categories"
-          data-value=""
+          data-value="general"
           onClick={handleCategoryChange}
           style={{ textDecoration: "none", color: "black" }}
         >
